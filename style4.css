@@ -1,5 +1,6 @@
 body {
   width: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0;
   background: rgb(2, 0, 36);
@@ -98,20 +99,17 @@ section {
 }
 
 section h1 {
+  height: 140px;
   font-size: 40px;
   border-bottom: 5px solid;
   text-align: center;
   align-items: center;
-  margin-top: 3px;
 }
 section ul {
   list-style-type: none;
   text-align: left;
   line-height: 45px;
   font-size: 25px;
-  padding-top: 40px;
-}
-footer {
 }
 
 footer h3 {
@@ -123,4 +121,35 @@ footer h3 {
   text-align: center;
   border-radius: 5px;
   box-shadow: 10px 8px 8px 5px rgba(19, 2, 16, 0.79);
+}
+
+footer h4 {
+  margin-left: 100px;
+  margin-top: 150px;
+  color: red;
+  background-color: black;
+  width: 400px;
+  height: 150px;
+  padding-top: 70px;
+  padding-left: 35px;
+  border-radius: 50%;
+  box-shadow: 10px 8px 8px 5px rgba(19, 2, 16, 0.79);
+}
+
+.button {
+  color: red;
+  position: fixed;
+  left: 90%;
+  bottom: 5%;
+  border: 15px solid white;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: white;
+  opacity: 0.3;
+}
+
+.button:hover {
+  opacity: 1;
+  color: blue;
+  box-shadow: 0px 10px 13px -7px #000000;
 }
