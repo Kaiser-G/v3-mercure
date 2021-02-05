@@ -100,6 +100,7 @@ nav ul li a:hover {
 
 h3 {
   padding-left: 35px;
+  padding-top: 15px;
 }
 
 .plats {
@@ -140,8 +141,8 @@ h3 {
 h6 {
   font-size: 1.5rem;
   text-transform: uppercase;
-  margin: auto;
-  margin-top: 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   text-align: center;
   text-decoration: underline;
 }
